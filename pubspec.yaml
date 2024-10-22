@@ -1,0 +1,20 @@
+name: next_two_anas_qunibi
+description: A Flutter project to embed YouTube live stream and display real estate data.
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  youtube_player_flutter: ^8.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
