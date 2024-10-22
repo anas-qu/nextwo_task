@@ -19,7 +19,6 @@ class _AssetsViewState extends State<AssetsView> {
     // Load the live video as soon as the widget is created
     controller.youtubePlayerController.load('jfKfPfyJRdk'); // Live video ID
   }
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
